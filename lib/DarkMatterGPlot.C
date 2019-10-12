@@ -97,7 +97,7 @@ void DarkMatterGPlot(){
   // Read in Data
 
   fstream infile1;
-  char filename[50]={"xxx14_G5_0.txt"}; //************************
+  char filename[50]={"GS4_Trace72"}; //************************
 
   cout<<" "<< endl;
   cout<<"File Name to Process = "<<filename<< endl;
