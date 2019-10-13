@@ -198,6 +198,7 @@ void DarkMatterGPlot(){
     double ytmpP=yP[i+2];
     double yavg=(ytmpM+ytmpP)/2.0;
     if(ytmp < mult*yavg) continue;
+    cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!"<<endl;
     yP[i]=yavg;
     yP[i-1]=yavg;
     yP[i+1]=yavg;}
